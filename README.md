@@ -115,9 +115,11 @@ this will select any p that comes direcly after an h1
 
 link: `a:link {--}`
 
-visited link: `a:visited {--}`
+visited: `a:visited {--}`
 
 hover: `a:hover {--}`
+
+active: `a:active {--}`
 
 ## 2. CSS Properties
 
@@ -171,4 +173,59 @@ padding-right: 15px;
 padding-bottom: 15px; 
 padding-left: 5px;
 ```
+
+### CSS Box Model 
+
+- Content: The content of the box (text and images)
+- Padding: Clears an area around the content (it is transparent)
+- Border: A border that goes around the padding and content
+- Margin: Clears an area outside the border (it is transparent)
+
+**margin affects the total space that the box will take, but is is not included in the actual size of the box**
+
+### Display property
+
+The display property is used to specify how an element is shown on a web page. The default display value for most elements is block or inline.
+
+**Block-level Elements**
+
+A block-level element ALWAYS starts on a new line and takes up the full width available.
+
+Examples:
+
+- `<div>`
+- `<h1>` - `<h6>`
+- `<p>`
+- `<form>`
+- `<header>`
+- `<footer>`
+- `<section>`
+
+**Inline Elements**
+
+An inline element DOES NOT start on a new line and only takes up as much width as necessary.
+
+Examples:
+
+- `<span>`
+- `<a>`
+- `<img>`
+
+**Display property values**
+
+- inline
+- block
+- contents
+- flex
+- grid
+
+### Position property
+
+The position property specifies the type of positioning method used for an element.
+
+- **static**: The element is positioned according to the normal flow of the document. top, right, bottom, and left properties have no effect. <span style="color:orange;">All elements are positioned static by default</span>.
+- **relative**: The element is positioned according to the normal flow of the document, and then adjusted based on the top, right, bottom, and left properties. This means the element can be moved relative to its original position.
+- **fixed**: The element is removed from the normal document flow and positioned relative to the viewport. It stays in the same place even when the page is scrolled.
+- **absolute**: The element is removed from the normal document flow and positioned relative to its nearest positioned ancestor (i.e., the nearest ancestor with a position other than static). If there is no such ancestor, it is positioned relative to the initial containing block (usually the `<html>` element).
+- **sticky**: The element is positioned based on the user's scroll position. It toggles between relative and fixed, depending on the scroll position. It is treated as relative until it crosses a specified point (using top, right, bottom, or left), after which it is treated as fixed.
 
