@@ -1,0 +1,56 @@
+header h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+}
+
+nav ul li {
+  padding: 2px 20px;
+  /* border: 1px solid black; */
+}
+
+nav ul li a {
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#introduction {
+  background-color: aqua;
+}
+
+#introduction h2 {
+  text-align: center;
+}
+
+#introduction p {
+  text-align: center;
+}
+
+#services {
+  background-color: aqua;
+}
+
+#services h2 {
+  text-align: center;
+}
+
+#services p {
+  text-align: center;
+}
+
+#services ul {
+  text-align: center;
+  list-style: none;
+}
+
+#services img {
+  border: 1px solid black;
+}
+
