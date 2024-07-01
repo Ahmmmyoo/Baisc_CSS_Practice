@@ -1,0 +1,69 @@
+:root {
+  --maxx: 80%;
+}
+
+header {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+}
+
+.head1 {
+  margin-left: 20px;
+  display: flex;
+  align-items: center
+}
+
+.head1 p {
+  margin-left: 10px;
+}
+
+.head2 {
+  position: relative;
+  margin-right: 20px;
+ 
+}
+
+section{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.main1{
+  border: 1px solid red;
+  max-width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.main1 p, .main1 h1 {
+  text-align: center;
+}
+
+.main2 {
+  display: flex;
+  flex-direction: row;
+  justify-items: end;
+  align-items: end;
+}
+
+.main2 img{
+  border: 1px solid black;
+  max-width: var(--maxx);
+  max-height: var(--maxx);
+
+}
+
