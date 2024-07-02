@@ -1,0 +1,49 @@
+header {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+  background-color: aqua;
+}
+
+section {
+  /* margin: 0;
+  padding: 0; */
+  border: 1px solid black;
+}
+
+p {
+  margin: 0;
+  border: 1px dotted black;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.box1 {
+  border: 3px solid red;
+  background-color: rgb(255, 144, 144);
+  padding: 60px;
+  margin: 10px;
+  
+}
+
+.box2 {
+  border: 3px solid green;
+  background-color: rgb(144, 255, 150);
+  padding: 60px;
+  margin: 10px;
+  margin-left: 196px;
+  
+}
+
+.box3 {
+  border: 3px solid blue;
+  background-color: rgb(144, 151, 255);
+  padding: 60px;
+  margin: 10px;
+  margin-left: 382px;
+
+}
