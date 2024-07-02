@@ -1,0 +1,27 @@
+header {
+  text-align: center;
+}
+
+.block {
+  background-color: aqua;
+  border: 1px solid black;
+  display: block;
+}
+
+.inline {
+  background-color: aqua;
+  border: 1px solid black;
+  display: inline;
+}
+
+.inline-block {
+  background-color: aqua;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.none {
+  background-color: aqua;
+  border: 1px solid black;
+  display: none;
+}
