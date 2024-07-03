@@ -25,3 +25,68 @@ header {
   border: 1px solid black;
   display: none;
 }
+
+.posRelative {
+  border: 1px solid slategray;
+  margin: 20px;
+}
+
+.b1 {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+.b2 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+.b3 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.posAbsolute {
+  background-color: aqua;
+  border: 1px solid black;
+  height: 370px;
+}
+
+.c1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.c2 {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  left: 100px
+}
+.c3 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: relative;
+  bottom: 200px;
+}
+
+.posFixed {
+  background-color: blueviolet;
+  display: inline-block;
+  position: fixed;
+}
