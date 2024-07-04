@@ -231,3 +231,9 @@ The position property specifies the type of positioning method used for an eleme
 - **absolute**: The element is removed from the normal document flow and positioned relative to its nearest positioned ancestor (i.e., the nearest ancestor with a position other than static). If there is no such ancestor, it is positioned relative to the initial containing block (usually the `<html>` element).
 - **sticky**: The element is positioned based on the user's scroll position. It toggles between relative and fixed, depending on the scroll position. It is treated as relative until it crosses a specified point (using top, right, bottom, or left), after which it is treated as fixed.
 
+### Flexbox
+
+aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).
+
+Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
+
