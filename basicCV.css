@@ -1,0 +1,155 @@
+header {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  /* BORDER */
+  margin: 10px;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.mainn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 10px;
+}
+
+.picture img {
+  border-radius: 200px;
+  border: 8px solid rgba(216, 112, 147, 0.566);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: "Franklin Gothic Medium";
+}
+
+p {
+  font-size: 1rem;
+  font-family: Verdana;
+  font-weight: 400;
+  margin: 0;
+}
+
+.heading h1 {
+  font-size: 3rem;
+}
+
+.heading h2 {
+  font-size: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid black;
+  margin-top: 10px;
+  width: 95%;
+  text-align: center;
+}
+
+.profile h2 {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 1.7rem;
+}
+
+.profile p {
+  margin: 15px 0px;
+}
+
+.lowerContainer {
+  display: flex;
+  flex-direction: row;
+  border-top: 3px solid black;
+  width: 95%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.leftContainer p {
+  font-size: 1rem;
+  font-family: Verdana;
+  font-weight: 400;
+}
+
+.leftContainer h2 {
+  font-size: 1.5rem;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  border-left: 3px solid black;
+  padding-left: 30px;
+}
+
+.rightContainer h1 {
+  font-size: 1.8rem;
+}
+
+.rightContainer h2 {
+  font-size: 1.2rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 14px;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 14px;
+}
+
+/* 
+.DU {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
