@@ -237,3 +237,9 @@ aims at providing a more efficient way to lay out, align and distribute space am
 
 Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
 
+### transform 
+
+- scale
+- rotate
+- translate
+- skew
