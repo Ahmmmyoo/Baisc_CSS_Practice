@@ -243,3 +243,6 @@ Since flexbox is a whole module and not a single property, it involves a lot of 
 - rotate
 - translate
 - skew
+
+### Animation
+
