@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(109, 52, 163);
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 720px) {
+  .box {
+    background-color: rgb(96, 233, 42);
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+  }
+  .container {
+    gap: 4px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .box {
+    background-color: violet;
+    height: 60px;
+    width: 60px;
+    border-radius: 14;
+  }
+  .container {
+    gap: 15px;
+  }
+}
