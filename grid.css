@@ -10,7 +10,8 @@
 }
 
 .zone:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px gray;
 }
 
 .green {
@@ -43,4 +44,14 @@
 
 .teal {
   background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+}
+
+.container {
+  /* display: grid; */
+  /* gap: 20px; */
+  /* grid-template-columns: 1fr 1fr 2fr; */
+  /* grid-template-columns: auto 1fr 1fr; //auto makes space for the content to fit */
+  /* grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  /* grid-template-rows: 1fr 2fr ; */
 }
